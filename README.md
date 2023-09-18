@@ -1,20 +1,46 @@
-# Railway-Management
+# Railway Management
 
-The objective is to optimize the scheduling train movements to reduce delays ,hence improving efficiency in the transportation system. By carefully analyzing and optimizing train routes, timetables, and resource allocation, we seek to minimize the cumulative delay across all trains.
+![GitHub repo size](https://img.shields.io/github/repo-size/YourUsername/Railway-Management)
+![GitHub stars](https://img.shields.io/github/stars/YourUsername/Railway-Management?style=social)
+![GitHub forks](https://img.shields.io/github/forks/YourUsername/Railway-Management?style=social)
 
-#Installation
-Refer IBM CPLEX Login using Academic email address to gain access to all features. Install the required dependencies such as JAVA.
+The objective of the Railway Management project is to optimize the scheduling of train movements to reduce delays and improve efficiency in the transportation system. By carefully analyzing and optimizing train routes, timetables, and resource allocation, the goal is to minimize the cumulative delay across all trains.
 
-#Procedure and Result
-We used optimization techniques with CPLEX Optimizer to create the optimal schedule for 200 trains traveling through 17 railway zones in India. To simulate the train movements, we generated random data for their entry and exit times within each zone to a .dat file. We had to minimize the total delay experienced by all trains. By CPLEX, we found the most efficient schedule that reduced delays for the given data.
+## Installation
 
-#Repository Guide
-The project.mod file contains the code for the project, defining the optimization model using the Constraint Programming Framework.
+To use this project, follow these installation steps:
 
-The project.dat file contains our test data required for the model.
+1. **IBM CPLEX**: Refer to IBM CPLEX and login using your academic email address to gain access to all features.
 
-The project.pdf file contains a concise description used for presentation purposes, providing an overview of the project's key aspects.
+2. **Dependencies**: Install the required dependencies, such as JAVA, as needed for the project.
 
-#Future Work
-Real-world data, Application to other scenario (Like reducing Passenger Congestion at Airport) ,more data points and edge cases can be utilized to validate and check robusteness the code .
+## Procedure and Result
 
+In this project, optimization techniques with CPLEX Optimizer were utilized to create the optimal schedule for 200 trains traveling through 17 railway zones in India. To simulate the train movements, random data for their entry and exit times within each zone was generated and stored in a .dat file. The primary objective was to minimize the total delay experienced by all trains. Through the use of CPLEX, the most efficient schedule was determined, resulting in reduced delays for the given data.
+
+## Repository Guide
+
+- **project.mod**: This file contains the code for the project, defining the optimization model using the Constraint Programming Framework.
+
+- **project.dat**: Contains the test data required for the model.
+
+- **project.pdf**: This file contains a concise description used for presentation purposes. It provides an overview of the project's key aspects, including the problem statement, methodology, and results.
+
+## Future Work
+
+Future work on this project may include:
+- Incorporating real-world data to validate and improve the model's accuracy.
+- Expanding the application of the optimization techniques to other scenarios, such as reducing passenger congestion at airports.
+- Utilizing more data points and exploring edge cases to further validate the code's robustness and effectiveness.
+
+Contributions and enhancements to the project are welcome. Feel free to open issues or submit pull requests to help improve this railway management optimization system.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+Special thanks to the academic community for providing access to IBM CPLEX and to the contributors who have worked on this project.
+
+---
